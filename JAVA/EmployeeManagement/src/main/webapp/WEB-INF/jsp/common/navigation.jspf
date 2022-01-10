@@ -1,0 +1,24 @@
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<div class="container-fluid">
+		
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link active"
+					aria-current="page" href="/emp/add">Add Employee</a></li>
+					&nbsp &nbsp &nbsp &nbsp
+					<li class="nav-item"><a class="nav-link active"
+					aria-current="page" href="/emp/search">Search Employee</a></li>
+					&nbsp &nbsp &nbsp &nbsp
+					<li class="nav-item"><a class="nav-link active" aria-current="page"
+					href="/emp/">Employee List/Update/Delete</a></li>
+						&nbsp &nbsp &nbsp &nbsp
+						<li class="nav-item"><a class="nav-link active" aria-current="page"
+					href="/logout">Logout</a></li>
+						&nbsp &nbsp &nbsp &nbsp
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
