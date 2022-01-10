@@ -1,0 +1,8 @@
+dist
+dist-*
+*.o
+*.hi
+*.jar
+*.DLL
+*.class
+*.exe
