@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function myFunction() {
+              str=document.getElementById("textBox").value.trim();
+              arr=str.split(" ");
+            
+              document.getElementById("one").innerHTML ="No of words = "+arr.length ;
+
+              document.getElementById("two").innerHTML="No of letters without space= "+(str.length-arr.length);
+            }
+            </script>
+    </head>
+<body>
+<input type = "text" id="textBox">
+<button onclick="myFunction()">Click me</button>
+<p id="one"></p>
+<p id="two"></p>
+
+
+
+</body>
+</html>
