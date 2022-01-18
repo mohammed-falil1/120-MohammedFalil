@@ -1,0 +1,37 @@
+
+{lst.options.length > 0 ? (
+                  lst.options.map((opt) => (
+                    <>
+                      {opt === props.answerSheet.get(qNo) ? (
+                        <>
+                          <div class="form-check" style={{backgroundColor:"green"}}>
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name={qNo + "radioButton"}
+                              value={opt}
+                              checked
+                            />
+                            <label class="form-check-label">{opt}</label>
+                          </div>
+                        </>
+                      ) : (
+                        <>
+                         <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name={qNo + "radioButton"}
+                      value={opt}
+                      
+                    />
+                    <label class="form-check-label">{opt}</label>
+                  </div>
+                        
+                        </>
+                      )}
+                    </>
+                  ))
+                ) : (
+                  <></>
+                )}

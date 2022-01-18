@@ -1,0 +1,15 @@
+#heading{
+    position: relative;
+    padding-bottom: 1rem;
+    padding-left: 40%;
+}
+
+#option{
+    padding-top: 1rem;
+}
+
+#submitButton{
+    width: 25%;
+    margin: 15px auto;
+    display: block;
+}
