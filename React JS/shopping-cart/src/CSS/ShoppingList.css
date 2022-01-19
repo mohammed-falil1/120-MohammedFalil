@@ -1,0 +1,23 @@
+.container-fluid {
+  padding-top: 2rem;
+}
+
+#table {
+  margin-top: 2rem;
+}
+
+#table th {
+  vertical-align: middle;
+  text-align: center;
+}
+#table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+#badge {
+  position: absolute;
+  margin-right: 10rem;
+  top: 0;
+  right: 0;
+}

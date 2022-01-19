@@ -1,0 +1,22 @@
+.container-fluid {
+  padding-top: 2rem;
+}
+
+#price {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 90%;
+  font-weight: bold;
+}
+
+#cartTag {
+  position: absolute;
+  left: 50%;
+}
+
+#cartEmptyTag {
+   position: absolute;
+    left: 44%;
+    margin: 2rem;
+}
